@@ -31,6 +31,19 @@ div{
 	margin-left:220px;
 	margin-right:220px;
 }
+#genre{padding-left: 4px;
+		padding-right: 4px;
+		}
+ul #genre li {
+  display:inline;
+}
+
+.main img{
+	width:80px;
+	display:inline;
+	margin-left: 15px;
+	margin-right: 15px
+}
 .sort_by{
 	float:left;
 	height:100%;
