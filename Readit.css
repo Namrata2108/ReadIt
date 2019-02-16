@@ -14,6 +14,9 @@ div{
 	width:150px;
 	margin:10px auto;
 }
+a{
+	text-allign:center;
+}
 #container{
 	text-align: center;
 	margin:0px 0px 10px 0px;
