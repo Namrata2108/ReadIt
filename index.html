@@ -1,108 +1,212 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
-	<link rel="stylesheet" type="text/css" href="Readit.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scratch.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+   <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">-->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <title>Readit</title>
+    
 </head>
 <body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+    <!--<nav class="navbar navbar default">-->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" id="toggle" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class ="navbar brand" id="logo "><img src="logo6.png"></a>
+            </div> 
+            <div class="collapse navbar-collapse" id="navLinks">
+                
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown" id=dropdown>
+                        <a href="#" data-toggle="dropdown">Browse<span class="caret" ></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Newly Added</a></li>
+                            <li><a href="#">Best Seller</a></li>
+                            <li><a href="#">Authors</a></li>
+                            <li><a href="#">Genres</a></li>
+                            <li><a href="#">Subjects</a></li>
+                        </ul>
+                    </li>
+                    <!--<div class="form-group" id="navLinks">-->
+                    <li> 
+                        <input type="text" class="form-control" placeholder="Search">
+                    </li>
+                    <li>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="" class="nav-link"><button type="button" class ="btn btn-default" type="signup" >Sign Up<i class="fas fa-user-plus"></i></button></a>
+                    </li>
+                    <li>
+                        <a href="" class="nav-link"><button type="button" class ="btn btn-default" type="login" >Login<i class="fas fa-user"></i></button></a>
+                    </li>
+                    <li class="dropdown" id="dropdown">
+                        <a href="#"  data-toggle="dropdown" >More<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="#">Your Profile</a></li>
+                        <li><a href="#">Your Books</a></li>
+                        <li><a href="#"></a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Help & support</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Developer Center</a></li>
+                        <li><a href="#">Contact</a></li>
+                    <!--<li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>-->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-6">
+                <div class="animation">
+                    <div class="book">
+                      <div class="back"></div>
+                      <div class="page6" text-align="Center" padding-top="50%"></div>
+                      <div class="page5"></div>
+                      <div class="page4"></div>
+                      <div class="page3"></div>
+                      <div class="page2"></div>
+                      <div class="page1"></div>
+                      <div class="front"><h1>ReadIt</h1><p>Lets you read and review every book ever written</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="thumbnail" text-align="Center" font-size="2em">
+                  <h2>A great book begins with an idea; a great life, with a determination.</h2>
 
-<div id="topbar">
-	<img src="images\logo6.png" id="logo">  
-	<i class="fas fa-user"></i>		
-	<i class="fas fa-bell"></i>		<!-- Notifications-->
-	<i class="fas fa-book"></i>		<!-- My books -->
-	<!-- <i class="fas fa-book-reader"></i> -->	<!-- My Book Clubs -->
-	<!-- <i class="fas fa-book-open"></i> -->	<!-- Explore more clubs -->
+              </div>
+          </div>
+        </div>
+    </div="container">
 
-	<i class="fas fa-search"></i>		<!-- For the search bar -->
-	<i class="fas fa-caret-square-down"></i>  <!-- More -->
-</div>
-
-<div id="container">
-	<img src="logo5.png" height="400px">
-	<span><i>Lets you read and review every book ever written</i></span>
-	<a href="https://Aastha2891.github.io/ReadIt/Wireframe.PNG">Click here to view Wireframe</a>
-</div>
-<!-- side column containing all the genres -->
-<div class="sort_by">
-	<h3>Genres</h3>
-	<h4>
-		<li>Science</li>
-		<li>Thriller</li>
-		<li>History</li>
-		<li>Religious</li>
-		<li>Horror</li>
-		<li>Romantic</li>
-		<li>Art</li>
-	</h4>
-	<h3>Authors</h3>
-	<h4>
-		<li>Jane Austen</li>
-		<li>William Shaksphere</li>
-		<li>J K Rowling</li>
-		<li>Agatha Christie</li>
-		<li>Eleanor Hibbert</li>
-		<li>Mark Twain</li>
-		<li>Ayn Rand</li>
-	</h4>
+<div id="container1">
+  <div class="sort_by">
+    <h3>Genres</h3>
+    <h4>
+        <li>Science</li>
+        <li>Thriller</li>
+        <li>History</li>
+        <li>Religious</li>
+        <li>Horror</li>
+        <li>Romantic</li>
+        <li>Art</li>
+    </h4>
 </div>
 
 <!-- the side column containg the preview of the book hovered upon -->
 <div class="preview" >
-	<div><h4>News Letter</h4></div>
-	<div>
-		<p>Let's be book buddies! Subscribe to the ReadIt newsletter and we'll share giveaways, book recommendations, exclusive author content, and more.</p>
-	</div>
-	<div class="ratings">
-		Stay Connected
-	</div>
+    <div><h4>News Letter</h4></div>
+    <div>
+        <p>Let's be book buddies! Subscribe to the ReadIt newsletter and we'll share giveaways, book recommendations, exclusive author content, and more.</p>
+    </div>
+    <div class="ratings">
+        Stay Connected
+    </div>
     <div class="images">
       <img src="instagram.png">
-		  <img src="fb.png">
-      <i class="fab fa-instagram"></i>
-		 <i class="fab fa-facebook-f"></i>
+          <img src="fb.png">
     </div>
-	<div id="summary">
-		<h5>Monthly Book Club</h5>
-		<p>A club of books updated every month accorfing to our viewer's choice</p>
-	</div>
-	<div>
-		<h5>About Us</h5>
-	</div>
+    <div id="summary">
+        <h5>Monthly Book Club</h5>
+        <p>A club of books updated every month accorfing to our viewer's choice</p>
+    </div>
+    <div>
+        <h5>About Us</h5>
+        <p>We are the college students and this website is our first project</p>
+    </div>
 </div>
 
 <!-- the main column having the rows containing all the books -->
 <div class="main">
-		<h1>Popular</h1>
-		<img src="images\religious.png">
-		<img src="images\science.png">
-		<img src="images\romantic.png">
-		<img src="images\thriller.png">
-		<img src="images\biography.png">
-	
+        <h1>Popular</h1>
+        <img src="religious.png">
+        <img src="science.png">
+        <img src="romantic.png">
+        <img src="thriller.png">
+        <img src="biography.png">
 
-	</div>
-	<div class="main">
-	
-		<h1>Classic</h1>
-		<img src="images\cb1.png">
-		<img src="images\cb2.png">
-		<img src="images\cb3.png">
-		<img src="images\cb4.png">
-		<img src="images\cb5.png">
+    </div>
+    <div class="main">
+    
+        <h1>Classic</h1>
+        <img src="cb1.png">
+        <img src="cb2.png">
+        <img src="cb3.png">
+        <img src="cb4.png">
+        <img src="cb5.png">
 
-	</div>
-	<div class="main">
-	
-		<h1>New Releases</h1>
-		<img src="images\nb1.png">
-		<img src="images\nb2.png">
-		<img src="images\nb3.png">
-		<img src="images\nb4.png">
-		<img src="images\nb5.png">
+    </div>
+    <div class="main">
+    
+        <h1>New Releases</h1>
+        <img src="nb1.png">
+        <img src="nb2.png">
+        <img src="nb3.png">
+        <img src="nb4.png">
+        <img src="nb5.png">
 
-	</div>
+    </div>
 </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
-</html>
